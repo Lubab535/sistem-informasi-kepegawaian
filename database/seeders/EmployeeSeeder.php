@@ -19,7 +19,9 @@ class EmployeeSeeder extends Seeder
             ['department' => 'Teknologi Informasi', 'name' => 'Budi Santoso', 'position' => 'Frontend Developer', 'salary' => 7500000, 'joined_at' => '2023-01-15'],
             ['department' => 'Sumber Daya Manusia', 'name' => 'Citra Lestari', 'position' => 'HR Specialist', 'salary' => 6500000, 'joined_at' => '2021-07-10'],
             ['department' => 'Keuangan', 'name' => 'Dian Permata', 'position' => 'Akuntan', 'salary' => 7000000, 'joined_at' => '2020-11-20'],
-            ['department' => 'Sumber Daya Manusia', 'name' => 'Eko Prasetyo', 'position' => 'Recruiter', 'salary' => 6000000, 'joined_at' => '2024-02-05'],
+            ['department' => 'Hubungan Masyarakat', 'name' => 'Fina Wulandari', 'position' => 'Community Manager', 'salary' => 6000000, 'joined_at' => '2023-08-12'],
+            ['department' => 'Administrasi', 'name' => 'Gede Pratama', 'position' => 'Administrative Assistant', 'salary' => 5500000, 'joined_at' => '2022-12-01'],
+            ['department' => 'Pergudangan', 'name' => 'Hendra Setiawan', 'position' => 'Warehouse Supervisor', 'salary' => 6500000, 'joined_at' => '2021-05-15'],
         ];
 
         foreach ($employees as $employee) {
